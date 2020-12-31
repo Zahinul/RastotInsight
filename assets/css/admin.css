@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Slabo 27px', serif;
+  /*font-family: "Raleway", sans-serif;
+  font-family: 'Lato', sans-serif;*/
+  padding: 0px;
+  margin: 0px;
+}
+header {
+    background: #1f5a48;
+  }
+
+
+  .knight-wrapper {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+  }
+  
+  .knight-wrapper .knight-manage-bar {
+    flex: 1;
+    background: aliceblue;
+    border-right: 3px solid gray;
+  }
+  .res-nav{
+    display: none;
+  }
+  .knight-wrapper .knight-manage-bar ul{
+      background: #1f5a48;
+  }
+  .knight-wrapper .knight-manage-bar ul li{
+    padding: 10px 0px;
+    padding-left: 20px;
+    border-bottom: 3px solid gray;
+    transition: all 0.3s;
+  }
+  .knight-wrapper .knight-manage-bar ul li:hover{
+    background: #0d3328;
+    transition: all 0.3s;
+  }
+  .knight-wrapper .knight-manage-bar ul li a{
+    color: azure;
+    font-size: 1.1em;
+    font-weight: 200;
+    transition: all 0.3s;
+  }
+  .knight-wrapper .knight-manage-bar ul li a:hover{
+    padding-left: 25px;
+    transition: all 0.3s;
+  }
+  .knight-wrapper .knight-content {
+    flex: 5;
+    background: #242222;
+    padding: 30px 75px 60px;
+    overflow-y: scroll;
+  }
+  .page-title{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: lightgray;
+  }
+  
+  .btn-grp{
+    float: right;
+    margin-top: 20px;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+    color: lightgray;
+  }
+  
+  th, td{
+    padding: 18px;
+    text-align: left;
+    border-bottom: 1px solid #413d3d;
+  }
+  
+  .publish{
+    color: teal;
+  }
+
+  .unpublish{
+    color: slategrey;
+  }
+  .edit{
+    color: skyblue;
+  }
+  
+  .delete{
+    color: maroon;
+  }
+  .view{
+    color: royalblue;
+  }
+  .publish:hover, .unpublish:hover,  .edit:hover, .delete:hover, .view:hover{
+    text-decoration: underline;
+  }
+  .content form div{
+    color: rgb(206, 221, 221);
+    padding: 10px;
+  }
+  .content form div label{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+  }
+  .content form div input{
+    margin-top: 10px;
+  }
+  .docudesc{
+    color: #222222;
+    font-size: 1.2em;
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  .content form .container{
+    width: 97%;
+    background: aliceblue;
+    color: #242222;
+    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+  }
+  .knight-footer {
+    width: 100%;
+    height: 40px;
+    background: #164b3b;
+    color: azure;
+    font-weight: 200;
+    font-size: 1.0em;
+    padding: 10px;
+    text-align: center;
+  }
+  
+/*Media Queries 
+  @media (max-width: 950px){
+    .knight-wrapper{
+      display: block;
+    }
+    .knight-wrapper .knight-content {
+      width: 100%;
+      background: #242222;
+    }
+    .knight-manage-bar{
+      display: none;
+    }
+    .res-nav{
+      display: block;
+    }
+  }*/
